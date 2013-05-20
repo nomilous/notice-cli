@@ -1,0 +1,11 @@
+#!/usr/bin/env coffee
+
+require('nez').objective 'notice-cli', 
+
+    assignTo: 'me'
+    description: """
+
+    route local notification to console
+
+    """, (Requirement) -> 
+
