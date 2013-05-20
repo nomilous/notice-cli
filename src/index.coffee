@@ -1,1 +1,3 @@
-module.exports = {}
+module.exports = (msg) -> 
+
+    console.log '[notice-cli] - ', msg
